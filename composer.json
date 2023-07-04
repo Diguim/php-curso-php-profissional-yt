@@ -3,6 +3,7 @@
     "description": "php-profissional",
     "autoload": {
         "files": [
+            "app/router/router.php"
 
         ],
         "psr-4": {
