@@ -1,0 +1,19 @@
+{
+    "name": "vendor/diogo-teste",
+    "description": "php-profissional",
+    "autoload": {
+        "files": [
+
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diogo Otoni",
+            "email": "diogootoni@hotmail.com"
+        }
+    ],
+    "require": {}
+}
