@@ -7,6 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'd82f43f9f44a5d311e7f6d524c7ecf75' => $baseDir . '/app/helpers/constants.php',
+    '1cb64c8234dcbd9351fa62de0b336b41' => $baseDir . '/app/helpers/redirect.php',
+    '39471ff455a345c1185d016c71e5534c' => $baseDir . '/app/helpers/flash.php',
+    '76190d3472b258439e1454ca395ae000' => $baseDir . '/app/helpers/sessions.php',
+    '064519bbbbf637f820abeb42811d27f9' => $baseDir . '/app/helpers/validate.php',
     '436465d1c67e347e3e92951781f376b9' => $baseDir . '/app/router/router.php',
     'e69b12fb4644ace2becf2847f14f3340' => $baseDir . '/app/core/controller.php',
+    '1faa5219f667b546cd1967cbceec4a60' => $baseDir . '/app/database/connect.php',
+    'f69bed40ba493917d4b3b99e7d863cde' => $baseDir . '/app/database/fetch.php',
+    '7ea458f138e85bbc697a38967853cd6d' => $baseDir . '/app/database/create.php',
 );

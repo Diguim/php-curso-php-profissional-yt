@@ -53,12 +53,14 @@ function router()
 
     $routes = routes();
 
-    $matchedUri = exactMatchUriInArrayRoutes($uri, $routes);
+    $requestMethod = $_SERVER['REQUEST_METHOD'];
+
+    $matchedUri = exactMatchUriInArrayRoutes($uri, $routes[$requestMethod]);
 
     $params = [];
 
     if (empty($matchedUri)) {
-        $matchedUri = regularExpressionMatchArrayRoutes($uri, $routes);
+        $matchedUri = regularExpressionMatchArrayRoutes($uri, $routes[$requestMethod]);
         $uri = explode('/', ltrim($uri, '/'));
         $params = params($uri, $matchedUri);
         $params = paramsFormat($uri, $params);
